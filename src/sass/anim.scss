@@ -1,0 +1,49 @@
+.rotacao{
+  animation: rotacao 8s ease-in-out infinite alternate;
+}
+@keyframes rotacao{
+  0%{
+    transform: rotate(0deg) translate(20px,0) scale(1.04);
+  }
+  100%{
+    transform: rotate(30deg) translate(10px,-40px) scale(1.2);
+  }
+}
+
+.aumenta-sobe{
+  animation: aumenta-sobe 8s ease infinite alternate;
+}
+@keyframes aumenta-sobe{
+  0%{
+    transform: scale(1) translate(0,0);
+  }
+  100%{
+    transform: scale(1.1) translate(0,-1.52rem);
+    filter: brightness(1.11);
+
+  }
+}
+
+.foca{
+  animation: foca 3s;
+}
+@keyframes foca{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0.8;
+  }
+}
+
+.foca2{
+  animation: foca2 3s;
+}
+@keyframes foca2{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
